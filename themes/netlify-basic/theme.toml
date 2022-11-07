@@ -1,14 +1,17 @@
-# theme.toml template for a Hugo theme
-# See https://github.com/gohugoio/hugoThemes#themetoml for an example
-
-name = "Netlify Basic"
+name = "Universal"
 license = "MIT"
-description = "A very basic theme for a quickstart template"
-homepage = "http://hugo-quickstart.netlify.com"
-tags = []
-features = []
-min_version = "0.41.0"
+licenselink = "https://github.com/devcows/hugo-universal-theme/blob/master/LICENSE"
+description = "A port of the Universal theme"
+homepage = "https://github.com/devcows/hugo-universal-theme"
+tags = ["blog", "company", "portfolio", "projects", "minimal", "responsive"]
+features = ["blog", "themes", "disqus", "minimal", "responsive"]
+min_version = 0.15
 
 [author]
-  name = "Netlify Template Team"
-  homepage = "https://github.com/netlify-templates"
+    name = "devcows"
+    homepage = "https://github.com/devcows"
+
+# If Porting existing theme
+[original]
+    author =  "bootstrapious"
+    homepage = "http://bootstrapious.com/p/universal-business-e-commerce-template"
